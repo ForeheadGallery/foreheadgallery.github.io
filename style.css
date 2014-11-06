@@ -1,0 +1,38 @@
+#headimage{
+	width: 1000px;
+	margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: #000000;
+}
+.section{
+    background: #555555;
+    margin: 10px;
+    padding: 10px;
+}
+#forms *{
+	width: 100%;
+}
+a{
+	background: #999999 !important;
+}
+input, textarea{
+    border: 5px solid white; 
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+.half{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;    
+}
