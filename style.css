@@ -24,7 +24,10 @@ body{
 	width: 100%;
 }
 a{
-	background: #999999 !important;
+	color: #ffffff;
+}
+a:hover{
+	color: #eeeeee;
 }
 input, textarea{
     border: 5px solid white; 
