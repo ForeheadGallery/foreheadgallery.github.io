@@ -23,6 +23,9 @@ body{
 #forms *{
 	width: 100%;
 }
+.submission{
+	display: inline-block;
+}
 a{
 	color: #ffffff;
 }
