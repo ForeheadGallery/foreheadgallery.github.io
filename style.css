@@ -23,6 +23,10 @@ body{
 #forms *{
 	width: 100%;
 }
+imgsubmit{
+	height: 233px;
+	width: 128px;
+}
 .submission{
 	display: inline-block;
 }
