@@ -1,7 +1,7 @@
 #headimage{
 	display: hidden;
 	border-radius: 1000px;
-	box-shadow: 0px 0px 40px #1e9411;
+	box-shadow: 0px 0px 50px #1e9411;
 }
 body{
     font-family: sans-serif;
@@ -10,7 +10,6 @@ body{
     color: #1e9411;
 }
 #container{
-	
     width: 1000px;
     margin: 0 auto;
 	margin-top: 20px;
