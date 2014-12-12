@@ -24,7 +24,6 @@ body{
     padding: 10px;
 }
 #forms *{
-	width: 100%;
 }
 .imgsubmit{
 	height: 128px;
@@ -47,12 +46,29 @@ a:hover{
 	color: #eeeeee;
 }
 input, textarea{
-    border: 5px solid white; 
+	width: 100%;
+    border: 5px solid#85e191;
     padding: 5px;
     margin: 0 0 10px 0;
+}
+.button{
+	background: black;
+	color: white;
+	padding:5px;
+	text-decoration: none;
+}
+.button:hover{
+	background: white;
+	color: black;
 }
 .half{
     width: 48%;
     display: inline-block;
     vertical-align: top;    
+}
+#simple_sketch{
+	margin: 10px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #000000;
 }
