@@ -10,8 +10,8 @@ $(function(){
 	$("#submit_btn").click(function(){
 		document.getElementById('my_hidden').value = $simp_sketch[0].toDataURL('image/png');
 		$.post("http://ecstaticpessimist.in/sendsubmission",{author: $("#author")[0].value, filestr: $("#my_hidden")[0].value}).done(function(data){
-			console.log("submitted", data);
 		});
+		$("#submit").html("<div style='text-align: center'><h2>Thank You</h2></div>");
 		
 	});
 });
