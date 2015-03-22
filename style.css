@@ -9,7 +9,14 @@ body{
     height: 100%;
     color: #000000;
     background: #85e191;
+    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+    */
 }
+
 #container{
     width: 1000px;
     margin: 0 auto;
@@ -26,13 +33,7 @@ body{
 #forms *{
 }
 .imgsubmit{
-    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+    */
-    height: 128px;
+   height: 128px;
     width: 256px; 
 	overflow: hidden;
 }
